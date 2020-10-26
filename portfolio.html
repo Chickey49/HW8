@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="logo">
+                <strong>Cameron's Portfolio</strong>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./index.html" style="color:black">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color:black">Portfolio</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/project-stock.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">STALK</h5>
+                        <p class="card-text">STALK was a group project that three of my classmate and I built.
+                            It utilizes two API's, chart.js, Bulma css framework.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS</li>
+                        <li class="list-group-item">Jquery</li>
+                        <li class="list-group-item">Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://github.com/lillianhuynh/STALK" class="card-link">GitHub Repo</a>
+                        <a href="https://lillianhuynh.github.io/STALK/" class="card-link">Deployed Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/WeatherDashboard.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <p class="card-text">This weather app was an assignment.
+                            It utilizes two API's, Bootstrap css framework.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS</li>
+                        <li class="list-group-item">Jquery</li>
+                        <li class="list-group-item">Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://github.com/Chickey49/Cams-HW6" class="card-link">GitHub Repo</a>
+                        <a href="https://chickey49.github.io/Cams-HW6/" class="card-link">Deployed Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottomRow" class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/WorkDayScheduler.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Planner</h5>
+                        <p class="card-text">I built a daily planner that uses 70% javascript.
+                            Most elements are dynamically created. The current time is displayed in white while future
+                            times are green and past times are yellow.
+                            The user input persists with local storage.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://github.com/Chickey49/Cams-HW5" class="card-link">GitHub Repo</a>
+                        <a href="https://chickey49.github.io/Cams-HW5/" class="card-link">Deployed Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/QuizGame.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz Game</h5>
+                        <p class="card-text">This quiz game was an early assignment. Running mostly on javascript, I created three questions and three answers corresponding. 
+                            User score was determined from subtracting time left from total 60 seconds. I.E user took 10 seconds to complete the game.
+                        </p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML, CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://github.com/Chickey49/Cams-HW4" class="card-link">GitHub Repo</a>
+                        <a href="https://chickey49.github.io/Cams-HW4/" class="card-link">Deployed Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="sticky-footer" class="py-4">
+        &copy; 2020 me
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

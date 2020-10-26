@@ -5,7 +5,7 @@ Update portfolio first time
 # Overview
 
 Week 8 homework was to update our portfolio. I did so my completely changing my styles and layout. I add screenshots of my most notable projects as well.
-
+<img src="./assets/PortfolioDemo.gif"><img>
 
 # Installation
 

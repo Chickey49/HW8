@@ -1,10 +1,8 @@
-# HW8
-Update portfolio first time
+# Cameron Hickey Developer Portfolio
+This is my developer portfolio. This sites purpose is to highlight my experiences and achievements. 
 
 
 # Overview
-
-Week 8 homework was to update our portfolio. I did so my completely changing my styles and layout. I add screenshots of my most notable projects as well.
 <img src="./assets/PortfolioDemo.gif"><img>
 
 # Installation

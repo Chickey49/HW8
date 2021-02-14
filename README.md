@@ -1,6 +1,5 @@
 # Cameron Hickey Developer Portfolio
-This is my developer portfolio. This sites purpose is to highlight my experiences and achievements. 
-
+This is my developer portfolio. This purpose of this site is to highlight my experiences and achievements. 
 
 # Overview
 <img src="./assets/PortfolioDemo.gif"><img>
